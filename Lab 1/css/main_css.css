@@ -1,0 +1,36 @@
+			h1 {
+			color:red;
+			font-size:33px;
+			font-family:digital-7;
+			}
+			h2, h3 {
+			color:pink;
+			font-size:23px;
+			font-family:arial;
+			}
+			ol li {
+			color:orange;
+			font-size:30px;
+			font-family:optima;
+			}
+			a:link {
+			color:green;
+			}
+			a:visited {
+			color:silver;
+			}
+			a:hover {
+			color:blue;
+			}
+			a:active {
+			color:pink;
+			}
+			#footer {
+			color:gray
+			}
+			.p1, .p2, .p3, .p4 {
+			color:purple;
+			}
+			* {
+			color:red;
+			}
