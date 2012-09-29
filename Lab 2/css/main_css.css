@@ -1,2 +1,13 @@
-h1, h2, h3 {
-color:purple
+body {background-color:#afafaf;}
+
+h1 {font-size:45px; font-weight:600; font-family:courier; color:#46be0a; background-color:#e4e4e4;}  
+h2, h3 {font-weight:300; font-family:courier; color:purple; background-color:#e4e4e4;}
+.nav {list-style-type:upper-roman; text-align:center;}
+span {text-decoration:underline;}
+
+
+
+#footer {font-variant:small-caps; font-style:italic;}
+
+
+
