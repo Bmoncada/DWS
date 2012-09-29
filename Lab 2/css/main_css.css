@@ -1,5 +1,8 @@
+/*-----------  body  -------------*/
 body {background-color:#afafaf;}
 
+
+/*-----------  headers  -------------*/
 h1 {
 		text-shadow:0.1em 0.1em 0.25em black;
 		font:bold 45px Courier; 
@@ -21,6 +24,8 @@ h3 {
 		color:purple; 
 		background-color:#e4e4e4; 
 		letter-spacing:1px;}
+		
+/*-----------  nav links  -------------*/
 
 .nav {
 		list-style-type:circle; 
@@ -29,23 +34,27 @@ h3 {
 		background-color:#cb0505;}
 a {
 		color:#520484;}
+		
+/*-----------  misc.  -------------*/		
 
 #saturn {
 		opacity:0.7;}
-span {
-		text-decoration:underline;}
 #data {
 		list-style-type:upper-roman;}
+		
+/*-----------  text deco   -------------*/		
+
 p {
 		text-indent:1em; 
 		text-transform:lowercase; 
 		word-spacing:-0.5px;
-		line-height:140%;}
-		
-img {
-		vertical-align:super 3px;}
+		line-height:140%;}		
+#decoration {
+		text-decoration:underline;}
+#align {
+		vertical-align:super;}
 
-
+/*-----------  footer   -------------*/		
 
 #footer {
 		font-variant:small-caps; 
