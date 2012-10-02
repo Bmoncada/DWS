@@ -1,15 +1,20 @@
+/*-------body-------*/
 
 body	{
+			font-family: 'Arbutus Slab', serif;
 			margin: 0 auto;
 			width: 960px;
 			}
+	
+/*-------nav-------*/			
 			
 h1 {
 		line-height: 50px;
 		padding: 0;
 		background-color: #b68342;
 		width: 160px;	
-		}
+		}		
+		
 		
 #nav {
 		line-height: 50px;
@@ -26,7 +31,48 @@ ul li {
 		padding: 0;
 		text-align: center;
 		width: 200px;
+		}	
+
+/*-------content-------*/	
+.class{
+		width: 200px
+		}
+		
+#side {
+		float: right;
+		text-align: right;
+		width: 360px
 		}		
+			
+#colors {
+		float: left;
+		width: 960px;
+		margin-top: 15px;
+		margin-bottom: 0;
+		}
+
+p {
+		float: left;
+		}
+	
+#hercules {
+		float: left;
+		width: 960px;
+		}	
+		
+img {
+		float: left;
+		margin-right: 30px;
+		}
+		
+#gallery {
+		float: left;
+		width: 600px;
+		padding: 0;
+		margin: 0;
+		}
+		
+
 			
 #liger {
 		clear: right
