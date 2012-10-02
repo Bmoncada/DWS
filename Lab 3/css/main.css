@@ -1,17 +1,17 @@
 /*-------body-------*/
 
 body	{
-			font-family: 'Arbutus Slab', serif;
-			margin: 0 auto;
-			width: 960px;
-			}
-	
+		font-family: 'Arbutus Slab', serif;
+		margin: 0 auto;
+		width: 960px;
+		background-color: #f4e4ae;
+		}
 /*-------nav-------*/			
 			
 h1 {
 		line-height: 50px;
 		padding: 0;
-		background-color: #b68342;
+		background-color: #f75d00;
 		width: 160px;	
 		}		
 		
@@ -25,7 +25,7 @@ h1 {
 		width: 800px;
 		}					
 		
-ul li {
+#nav li {
 		float: left;
 		margin: 0;
 		padding: 0;
@@ -34,15 +34,17 @@ ul li {
 		}	
 
 /*-------content-------*/	
-.class{
-		width: 200px
+.secondary-section {
+		float: left;
+		width: 50%;
+		background-color: #b79466;
 		}
-		
-#side {
-		float: right;
-		text-align: right;
-		width: 360px
-		}		
+
+.main-section {
+		float: left;
+		width: 50%;
+		background-color: #b79466;
+		}
 			
 #colors {
 		float: left;
@@ -60,21 +62,17 @@ p {
 		width: 960px;
 		}	
 		
-img {
+#gallery li {
+		display: block;
 		float: left;
-		margin-right: 30px;
+		width: 33%;
 		}
 		
 #gallery {
-		float: left;
-		width: 600px;
 		padding: 0;
 		margin: 0;
 		}
 		
 
-			
-#liger {
-		clear: right
-		}
+
 	
