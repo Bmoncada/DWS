@@ -33,6 +33,11 @@ h1 {
 		width: 200px;
 		}	
 
+/*-------container-------*/	
+#wrapper {
+		background-color: #b79466;
+		overflow: hidden;
+		}
 /*-------content-------*/	
 .secondary-section {
 		float: left;
@@ -45,22 +50,7 @@ h1 {
 		width: 50%;
 		background-color: #b79466;
 		}
-			
-#colors {
-		float: left;
-		width: 960px;
-		margin-top: 15px;
-		margin-bottom: 0;
-		}
 
-p {
-		float: left;
-		}
-	
-#hercules {
-		float: left;
-		width: 960px;
-		}	
 		
 #gallery li {
 		display: block;
