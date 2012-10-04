@@ -4,22 +4,31 @@
 body {
 		font-family: 'Montserrat Subrayada', sans-serif;
 		margin: 0 auto;
-		width:960px;
-		/*background: #053c58 url(../images/tron-bg.jpg) repeat-x;*/
+		width:1000px;
+		/*background: #000000; 
+		background: -moz-linear-gradient(top,  #000000 35%, #08486b 81%); 
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(35%,#000000), color-stop(81%,#08486b)); 
+		background: -webkit-linear-gradient(top,  #000000 35%,#08486b 81%); 
+		background: -o-linear-gradient(top,  #000000 35%,#08486b 81%); 
+		background: -ms-linear-gradient(top,  #000000 35%,#08486b 81%); 
+		background: linear-gradient(to bottom,  #000000 35%,#08486b 81%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#08486b',GradientType=0 );*/
+
 		}
 		
-div img {
-		float: left;
-		}		
+img {
+		width: 640px;
+		}
 		
 #main-section {
-		clear: righ;
 		float: left;
 		width:640px;
+		background: #0179c5;
 		}
 		
 #secondary-section{
-		float: left;
+		float: right;
 		width:320px;
+		background: #0179c5;
 		}		
 		
