@@ -1,0 +1,25 @@
+
+
+
+body {
+		font-family: 'Montserrat Subrayada', sans-serif;
+		margin: 0 auto;
+		width:960px;
+		/*background: #053c58 url(../images/tron-bg.jpg) repeat-x;*/
+		}
+		
+div img {
+		float: left;
+		}		
+		
+#main-section {
+		clear: righ;
+		float: left;
+		width:640px;
+		}
+		
+#secondary-section{
+		float: left;
+		width:320px;
+		}		
+		
