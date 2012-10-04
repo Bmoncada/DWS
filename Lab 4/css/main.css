@@ -2,47 +2,56 @@
 
 /*-------body-------*/
 body {
-		font: white;
 		font-family: 'Montserrat Subrayada', sans-serif;
 		margin: 0 auto;
 		width:960px;
-		background: #000000; 
-		background: -moz-linear-gradient(top,  #000000 35%, #08486b 81%); 
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(35%,#000000), color-stop(81%,#08486b)); 
-		background: -webkit-linear-gradient(top,  #000000 35%,#08486b 81%); 
-		background: -o-linear-gradient(top,  #000000 35%,#08486b 81%); 
-		background: -ms-linear-gradient(top,  #000000 35%,#08486b 81%); 
-		background: linear-gradient(to bottom,  #000000 35%,#08486b 81%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#08486b',GradientType=0 );
+		background: #09604c; 
+background: -moz-linear-gradient(left,  #09604c 0%, #05101c 8%, #05101c 93%, #09604c 100%); 
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#09604c), color-stop(8%,#05101c), color-stop(93%,#05101c), color-stop(100%,#09604c)); 
+background: -webkit-linear-gradient(left,  #09604c 0%,#05101c 8%,#05101c 93%,#09604c 100%); 
+background: -o-linear-gradient(left,  #09604c 0%,#05101c 8%,#05101c 93%,#09604c 100%); 
+background: -ms-linear-gradient(left,  #09604c 0%,#05101c 8%,#05101c 93%,#09604c 100%); 
+background: linear-gradient(to right,  #09604c 0%,#05101c 8%,#05101c 93%,#09604c 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09604c', endColorstr='#09604c',GradientType=1 ); 
+
+
+
 		}
 /*-------sections-------*/		
 		
 #main-section {
+		margin-top: 20px;
 		float: left;
 		width:640px;
-		background: #0179c5;
+		background: url(../images/hexabump.png);	
+		border-radius: 20px;
 		}
 		
 #secondary-section{
+		margin-top: 20px;
 		float: right;
 		width:300px;
 		background: #0179c5;
+		background: url(../images/hexabump.png);		
+		border-radius: 20px;
 		}		
 
 /*-------nav-------*/	
 nav {
-		border: gray;
 		float: left;
-		width: 960px;
+		width: 955px;
 		height: 80px;
 		line-height: 50px;
 		padding: 0;
 		}
 
 nav li {
+		
+		border: solid gray;
+		border-radius: 10px;
 		float: left;
 		text-align: center;
-		width: 33%;
+		width: 32%;
 		list-style-type: none;
 		}	
 
@@ -59,9 +68,14 @@ nav a:active {
 
 /*-------images-------*/	
 
+#text {
+		color: white;
+		}
+
 
 		
 img {
 		width: 640px;
 		}		
+
 		
