@@ -4,7 +4,7 @@
 body {
 		font-family: 'Montserrat Subrayada', sans-serif;
 		margin: 0 auto;
-		width:1000px;
+		width:960px;
 		/*background: #000000; 
 		background: -moz-linear-gradient(top,  #000000 35%, #08486b 81%); 
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(35%,#000000), color-stop(81%,#08486b)); 
@@ -24,11 +24,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 		
 #secondary-section{
 		float: right;
-		width:320px;
+		width:300px;
 		background: #0179c5;
 		}		
 
-/*-------images-------*/		
+/*-------nav-------*/	
+nav {
+		background-color: grey;
+		float: left;
+		width: 960px;
+		height: 90px;
+		line-height: 60px;
+		padding: 0;
+		}
+
+nav li {
+		float: left;
+		text-align: center;
+		width: 33%;
+		list-style-type: none;
+		}	
+
+nav a {
+		display: block;
+		}
+		
+nav a:hover	{
+		color: white;
+		}				
+nav a:active {
+		color: green;
+		}		
+
+/*-------images-------*/	
+
 
 		
 img {
