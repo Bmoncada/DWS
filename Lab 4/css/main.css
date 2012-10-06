@@ -32,7 +32,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09604c', end
 		margin-top: 20px;
 		float: right;
 		width:300px;
-		background: #0179c5;
 		background: url(../images/hexabump.png);
 		border: 1px solid white;		
 		border-radius: 20px;
@@ -48,25 +47,41 @@ nav {
 		}
 
 nav li {
-		
-		border: solid gray;
 		border-radius: 10px;
 		float: left;
 		text-align: center;
 		width: 32%;
 		list-style-type: none;
 		}	
+		
+li#product {
+		background: url("../images/nav_sprite.jpg") no-repeat -123.5px -317px;
+		}
+
+li#shop {
+		background: url("../images/nav_sprite.jpg") no-repeat -417px -317px;
+		}				
+li#support {
+		background: url("../images/nav_sprite.jpg") no-repeat -709.5px -317px;
+		}		
+		
+nav #product a:hover	{
+		background: url("../images/nav_sprite.jpg") no-repeat -123.5px -367px;
+		}	
+nav #shop a:hover	{
+		background: url("../images/nav_sprite.jpg") no-repeat -417px -367px;
+		}	
+nav #support a:hover	{
+		background: url("../images/nav_sprite.jpg") no-repeat -709.5px -367px;
+		}			
+nav #
 
 nav a {
 		display: block;
-		}
-		
-nav a:hover	{
-		color: white;
-		}				
-nav a:active {
-		color: green;
-		}		
+		text-align: -9999px;
+		}			
+
+				
 
 /*-------images-------*/	
 
