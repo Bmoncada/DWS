@@ -55,27 +55,36 @@ nav li {
 		}	
 		
 li#product {
-		background: url("../images/nav_sprite.jpg") no-repeat -123.5px -317px;
+		background: url("../images/nav_sprite.gif") no-repeat -123.5px -317px;
 		}
 
 li#shop {
-		background: url("../images/nav_sprite.jpg") no-repeat -417px -317px;
+		background: url("../images/nav_sprite.gif") no-repeat -417px -317px;
 		}				
 li#support {
-		background: url("../images/nav_sprite.jpg") no-repeat -709.5px -317px;
+		background: url("../images/nav_sprite.gif") no-repeat -709.5px -317px;
 		}		
 		
 nav #product a:hover	{
-		background: url("../images/nav_sprite.jpg") no-repeat -123.5px -367px;
+		background: url("../images/nav_sprite.gif") no-repeat -123.5px -367px;
 		}	
 nav #shop a:hover	{
-		background: url("../images/nav_sprite.jpg") no-repeat -417px -367px;
+		background: url("../images/nav_sprite.gif") no-repeat -417px -367px;
 		}	
 nav #support a:hover	{
-		background: url("../images/nav_sprite.jpg") no-repeat -709.5px -367px;
+		background: url("../images/nav_sprite.gif") no-repeat -709.5px -367px;
 		}			
-nav #
-
+		
+nav #product a:active { 
+		background: url("../images/nav_sprite.gif") no-repeat -123.5px -420px;
+		}
+nav #shop a:active { 
+		background: url("../images/nav_sprite.gif") no-repeat -417px -420px;
+		}		
+nav #support a:active { 
+		background: url("../images/nav_sprite.gif") no-repeat -709.5px -420px;
+		}	
+		
 nav a {
 		display: block;
 		text-align: -9999px;
