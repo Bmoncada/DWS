@@ -83,8 +83,7 @@ nav #support a:active {
 		
 nav li a {
 		display: block;
-		text-align: -9999px;
-		font-size: .01px;
+		text-indent: -9999px;
 		}			
 
 				
@@ -110,8 +109,8 @@ img {
 
 .button {
 		font-size: 40px;
-		text-align: right;
-		margin: 40px 
+		text-align: center;
+		margin: 40px; 
 		background: rgb(2,59,81); /* Old browsers */
 		background: -moz-linear-gradient(top,  rgba(2,59,81,1) 0%, rgba(83,203,241,1) 35%, rgba(83,203,241,1) 66%, rgba(2,59,81,1) 100%); /* FF3.6+ */
 		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(2,59,81,1)), color-stop(35%,rgba(83,203,241,1)), color-stop(66%,rgba(83,203,241,1)), color-stop(100%,rgba(2,59,81,1))); /* Chrome,Safari4+ */
